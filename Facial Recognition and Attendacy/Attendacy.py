@@ -60,4 +60,3 @@ while True:
 
     cv2.imshow('webcam', img)
     cv2.waitKey(1)
-
