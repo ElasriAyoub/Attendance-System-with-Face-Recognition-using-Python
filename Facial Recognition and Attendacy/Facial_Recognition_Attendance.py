@@ -30,7 +30,6 @@ def markAttendance(name):
     with open('Attendance.csv', 'r+') as f:
         myDataList = f.readlines()
 
-
 nameList = []
 for line in myDataList:
     entry = line.split(',')
