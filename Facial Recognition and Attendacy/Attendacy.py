@@ -36,6 +36,7 @@ def markAttendance(name):
 encodeListKnown = findEncodings(images)
 print('Encodings Complete')
 
+
 cap = cv2.VideoCapture(0)
 
 while True:
