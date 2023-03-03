@@ -4,7 +4,7 @@ import numpy as np
 import os
 from datetime import datetime
 
-path = 'C:/Users/Utilisateur/Desktop/Application/ImagesAttendance/'
+path = '/Application/ImagesAttendance/'
 images = []
 classNames = []
 myList = os.listdir(path)
