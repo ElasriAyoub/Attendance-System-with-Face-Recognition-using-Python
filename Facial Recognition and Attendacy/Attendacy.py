@@ -9,6 +9,7 @@ images = []
 classNames = []
 myList = os.listdir(path)
 print("Total Classes Detected:",len(myList))
+
 for x,cl in enumerate(myList):
         curImg = cv2.imread(f'{path}/{cl}')
         images.append(curImg)
@@ -21,6 +22,7 @@ def findEncodings(images):
         encode = face_recognition.face_encodings(img)[0]
         encodeList.append(encode)
     return encodeList
+
 def markAttendance(name):
     with open('C:/Users/Utilisateur/Desktop/Application/Attendance.csv','r+') as f:
         myDataList = f.readlines()
